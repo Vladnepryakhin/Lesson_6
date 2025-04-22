@@ -19,7 +19,7 @@ abstract class Animals {
     }
     public void eat(int foodAmount){
         satiety += foodAmount;
-        if (satiety > 101){
+        if (satiety > 102){
             satiety = 100;
         }
         System.out.println(name + " поел. Уровень сытости: " + satiety);
